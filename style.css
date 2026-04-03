@@ -21,7 +21,7 @@ body {
 
 /* 共通：横幅の制限と中央寄せ */
 .inner {
-  max-width: 400px;
+  max-width: 900px;
   margin: 0 auto;
   padding: 0 24px;
 }
