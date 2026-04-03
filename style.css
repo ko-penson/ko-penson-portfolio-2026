@@ -262,6 +262,10 @@ nav a:hover {
   text-align: center;
 }
 
+.work-img--design {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
 .video-wrap iframe {
   width: 100%;
   max-width: 700px;
