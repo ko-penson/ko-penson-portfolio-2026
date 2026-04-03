@@ -5,7 +5,7 @@
 
 ## 🔗 サイトURL
 
-👉 **[https://ko-penson.github.io/portfolio/](https://ko-penson.github.io/portfolio/)**
+👉 **https://ko-penson.github.io/ko-penson-portfolio-2026/**
 
 ---
 
