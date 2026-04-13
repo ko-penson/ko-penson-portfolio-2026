@@ -335,3 +335,57 @@ footer {
   object-fit: cover;
   display: block;
 }
+
+/* ====================
+   Reviews
+   ==================== */
+.reviews-sub {
+  font-size: 13px;
+  color: #999;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  margin-bottom: 32px;
+  margin-top: -32px;
+}
+
+.reviews-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.review-card {
+  width: calc(33.333% - 14px);
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.review-stars {
+  color: #FF9F1C;
+  font-size: 16px;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}
+
+.review-text {
+  font-size: 13px;
+  color: #555;
+  line-height: 1.8;
+  margin-bottom: 14px;
+}
+
+.review-name {
+  font-size: 13px;
+  font-weight: 700;
+  color: #333;
+  text-align: right;
+}
+
+@media (max-width: 600px) {
+  .review-card {
+    width: 100%;
+  }
+}
