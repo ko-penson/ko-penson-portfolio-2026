@@ -262,10 +262,6 @@ nav a:hover {
   text-align: center;
 }
 
-.work-img--design {
-  background: linear-gradient(135deg, #667eea, #764ba2);
-}
-
 .video-wrap iframe {
   width: 100%;
   max-width: 700px;
@@ -317,4 +313,18 @@ footer {
   .video-wrap iframe {
     height: 220px;
   }
+}
+/* MorCOM・Dreamerカード追加分 */
+.work-img--morcom {
+  background: #2c3e50;
+}
+
+.work-img--dreamer {
+  background: #8e44ad;
+}
+
+.work-card--link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
 }
