@@ -344,44 +344,50 @@ footer {
   color: #999;
   font-weight: 700;
   letter-spacing: 0.08em;
-  margin-bottom: 32px;
+  margin-bottom: 40px;
   margin-top: -32px;
 }
 
 .reviews-grid {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 24px;
 }
 
 .review-card {
-  width: calc(33.333% - 14px);
+  width: calc(33.333% - 16px);
   background: #fff;
   border: 1px solid #eee;
-  border-radius: 10px;
-  padding: 20px;
+  border-radius: 12px;
+  padding: 24px;
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
 
 .review-stars {
   color: #FF9F1C;
-  font-size: 16px;
-  margin-bottom: 10px;
-  letter-spacing: 2px;
+  font-size: 18px;
+  letter-spacing: 3px;
 }
 
 .review-text {
   font-size: 13px;
   color: #555;
-  line-height: 1.8;
-  margin-bottom: 14px;
+  line-height: 2;
+  flex: 1;
+  border-left: 3px solid #FF9F1C;
+  padding-left: 12px;
 }
 
 .review-name {
   font-size: 13px;
   font-weight: 700;
-  color: #333;
+  color: #FF9F1C;
   text-align: right;
+  padding-top: 8px;
+  border-top: 1px solid #eee;
 }
 
 @media (max-width: 600px) {
